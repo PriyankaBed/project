@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: "Frutus T Light,Frutus T Regular";
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Frutus T Light";
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Frutus T Regular";
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Frutus T Regular";
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #ebebeb; */
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #262626;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Frutus T Regular";
+}
+
+.topnav li a.active {
+    display: block;
+    color: #ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Frutus T Regular";
+}
+
+ul.topnav li a:hover {
+    background-color: #007e33;
+    color: white;
+    font-weight: bold;
+}
+
+ul.topnav li a.active {
+    color: aliceblue;
+    background-color: #04aa6d;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+.Main_Content {
+    margin-top: 150px;
+}
+
+.main_right {
+    float: left;
+}
+
+/* .main_left {
+    background-color: rgb(131, 227, 139);
+} */
+.topic {
+    color: black;
+    float: left;
+    margin-top: 60px;
+}
+
+.topic a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Frutus T Light";
+}
+
+img {
+    max-width: 35%;
+    max-height: 25%;
+    padding-left: 165px;
+    padding-top: 50px;
+}
+
+.grun_bauhaus {
+    margin-top: 120px;
+    height: auto;
+    max-width: 960px;
+}
+
+.grun_bauhaus_left {
+    float: left;
+    font-size: 23px;
+    margin-right: 40px;
+    height: 130px;
+}
+
+.grun_bauhaus_right {
+    height: 130px;
+}
+
+.grun_bauhaus_right p {
+    font-size: 16px;
+    text-align: justify;
+    color: #4b4d4e;
+    font-family: "Frutus T Light";
+}
+
+.aktive_bauhaus {
+    margin-top: 120px;
+    height: auto;
+    max-width: 960px;
+}
+
+.aktive_bauhaus_left {
+    font-size: 23px;
+    margin-right: 100px;
+    height: 230px;
+    float: left;
+    text-align: left;
+    padding-top: 160px;
+}
+
+.aktive_bauhaus_right {
+    height: 390px;
+}
+
+.aktive_bauhaus_right p {
+    font-size: 16px;
+    text-align: justify;
+    color: #4b4d4e;
+    font-family: "Frutus T Light";
+}
+
+.einrichtungen_bauhaus {
+    margin-top: 120px;
+    height: auto;
+    max-width: 960px;
+}
+
+.einrichtungen_bauhaus_left {
+    font-size: 23px;
+    margin-right: 100px;
+    height: 300px;
+    float: left;
+    text-align: left;
+    padding-top: 160px;
+}
+
+.einrichtungen_bauhaus_right {
+    height: 400px;
+}
+
+.einrichtungen_bauhaus_right p {
+    font-size: 16px;
+    text-align: justify;
+    color: #4b4d4e;
+    font-family: "Frutus T Light";
+}
+
+.Kontakt_bauhaus {
+    border: 2px solid rgb(170, 168, 168);
+    margin-top: 50px;
+    background-color: black;
+    padding: 2px;
+    height: 431px;
+}
+
+.Kontakt_bauhaus_left {
+    float: left;
+    width: auto;
+    height: 415px;
+    color: white;
+    padding-left: 5px;
+}
+
+.Kontakt_bauhaus_right {
+    color: white;
+    padding-right: 10px;
+    text-align: justify;
+    height: 415px;
+}
+
+.Kontakt_bauhaus_right_first {
+    float: left;
+    width: auto;
+    height: 420px;
+    border-left: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.Kontakt_bauhaus_right_second {
+    width: auto;
+    height: 420px;
+    color: white;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.Kontakt_bauhaus_bottom {
+    border: 2px solid rgb(170, 168, 168);
+    background-color: black;
+    float: left;
+    padding: 5px;
+}
+
+.Kontakt_bauhaus_left_bottom {
+    width: 400px;
+    color: white;
+    float: left;
+    padding-right: 10px;
+    padding-left: 5px;
+    height: 950px;
+    border-right: 1px solid rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.Kontakt_bauhaus_right_bottom {
+    height: 950px;
+    width: 450px;
+    width: auto;
+    color: white;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+/* .goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+} */
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
